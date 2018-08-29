@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yd-common/yd-common.iml" filepath="$PROJECT_DIR$/yd-common/yd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-common-mapper/yd-common-mapper.iml" filepath="$PROJECT_DIR$/yd-common-mapper/yd-common-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-common-model/yd-common-model.iml" filepath="$PROJECT_DIR$/yd-common-model/yd-common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-common-pojo/yd-common-pojo.iml" filepath="$PROJECT_DIR$/yd-common-pojo/yd-common-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-common-redis/yd-common-redis.iml" filepath="$PROJECT_DIR$/yd-common-redis/yd-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-compile/yd-compile.iml" filepath="$PROJECT_DIR$/yd-compile/yd-compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-modular-user/yd-modular-user.iml" filepath="$PROJECT_DIR$/yd-modular-user/yd-modular-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-app/yd-service-app.iml" filepath="$PROJECT_DIR$/yd-service-app/yd-service-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-app-api/yd-service-app-api.iml" filepath="$PROJECT_DIR$/yd-service-app-api/yd-service-app-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-order/yd-service-order.iml" filepath="$PROJECT_DIR$/yd-service-order/yd-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-order-api/yd-service-order-api.iml" filepath="$PROJECT_DIR$/yd-service-order-api/yd-service-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-services/yd-service-services.iml" filepath="$PROJECT_DIR$/yd-service-services/yd-service-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-service-services-api/yd-service-services-api.iml" filepath="$PROJECT_DIR$/yd-service-services-api/yd-service-services-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-modular-user/yd-service-user/yd-service-user.iml" filepath="$PROJECT_DIR$/yd-modular-user/yd-service-user/yd-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-modular-user/yd-service-user-api/yd-service-user-api.iml" filepath="$PROJECT_DIR$/yd-modular-user/yd-service-user-api/yd-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yd-web-api/yd-web-api.iml" filepath="$PROJECT_DIR$/yd-web-api/yd-web-api.iml" />
+    </modules>
+  </component>
+</project>

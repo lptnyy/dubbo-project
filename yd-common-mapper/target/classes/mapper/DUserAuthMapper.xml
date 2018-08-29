@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yunding.mapper.DUserAuthMapper" >
+  <resultMap id="BaseResultMap" type="com.yunding.pojo.DUserAuth" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="contacts" property="contacts" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="INTEGER" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="card_pos" property="cardPos" jdbcType="VARCHAR" />
+    <result column="card_back" property="cardBack" jdbcType="VARCHAR" />
+    <result column="aptitude" property="aptitude" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="d_u_id" property="dUId" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, contacts, phone, email, card_pos, card_back, aptitude, create_time, update_time, 
+    d_u_id, status
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from yd_d_user_auth
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from yd_d_user_auth
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.yunding.pojo.DUserAuth" >
+    insert into yd_d_user_auth (id, contacts, phone, 
+      email, card_pos, card_back, 
+      aptitude, create_time, update_time, 
+      d_u_id, status)
+    values (#{id,jdbcType=INTEGER}, #{contacts,jdbcType=VARCHAR}, #{phone,jdbcType=INTEGER}, 
+      #{email,jdbcType=VARCHAR}, #{cardPos,jdbcType=VARCHAR}, #{cardBack,jdbcType=VARCHAR}, 
+      #{aptitude,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{dUId,jdbcType=INTEGER}, #{status,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yunding.pojo.DUserAuth" >
+    insert into yd_d_user_auth
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="contacts != null" >
+        contacts,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="cardPos != null" >
+        card_pos,
+      </if>
+      <if test="cardBack != null" >
+        card_back,
+      </if>
+      <if test="aptitude != null" >
+        aptitude,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="dUId != null" >
+        d_u_id,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="contacts != null" >
+        #{contacts,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=INTEGER},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="cardPos != null" >
+        #{cardPos,jdbcType=VARCHAR},
+      </if>
+      <if test="cardBack != null" >
+        #{cardBack,jdbcType=VARCHAR},
+      </if>
+      <if test="aptitude != null" >
+        #{aptitude,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dUId != null" >
+        #{dUId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yunding.pojo.DUserAuth" >
+    update yd_d_user_auth
+    <set >
+      <if test="contacts != null" >
+        contacts = #{contacts,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        phone = #{phone,jdbcType=INTEGER},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="cardPos != null" >
+        card_pos = #{cardPos,jdbcType=VARCHAR},
+      </if>
+      <if test="cardBack != null" >
+        card_back = #{cardBack,jdbcType=VARCHAR},
+      </if>
+      <if test="aptitude != null" >
+        aptitude = #{aptitude,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dUId != null" >
+        d_u_id = #{dUId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yunding.pojo.DUserAuth" >
+    update yd_d_user_auth
+    set contacts = #{contacts,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=INTEGER},
+      email = #{email,jdbcType=VARCHAR},
+      card_pos = #{cardPos,jdbcType=VARCHAR},
+      card_back = #{cardBack,jdbcType=VARCHAR},
+      aptitude = #{aptitude,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      d_u_id = #{dUId,jdbcType=INTEGER},
+      status = #{status,jdbcType=TINYINT}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

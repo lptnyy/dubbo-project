@@ -1,0 +1,12 @@
+com/yunding/mapper/UUserChildMapper.class
+com/yunding/mapper/AppMapper.class
+com/yunding/mapper/UUserLogMapper.class
+com/yunding/mapper/DUserAuthMapper.class
+com/yunding/mapper/UUserMapper.class
+com/yunding/mapper/ManageUserMapper.class
+com/yunding/mapper/ServiceAuthMapper.class
+com/yunding/mapper/ServiceMapper.class
+com/yunding/transaction/TransactionConfig.class
+com/yunding/mapper/DUserMapper.class
+com/yunding/mapper/OrderMapper.class
+com/yunding/mapper/ServiceUserLogMapper.class

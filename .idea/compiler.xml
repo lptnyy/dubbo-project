@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yd-common" />
+        <module name="yd-common-mapper" />
+        <module name="yd-common-model" />
+        <module name="yd-common-pojo" />
+        <module name="yd-modular-user" />
+        <module name="yd-service-app" />
+        <module name="yd-service-app-api" />
+        <module name="yd-service-order" />
+        <module name="yd-service-order-api" />
+        <module name="yd-service-services" />
+        <module name="yd-service-services-api" />
+        <module name="yd-service-user" />
+        <module name="yd-service-user-api" />
+        <module name="yd-web-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="yd-common" target="1.8" />
+      <module name="yd-common-mapper" target="1.8" />
+      <module name="yd-common-model" target="1.8" />
+      <module name="yd-common-pojo" target="1.8" />
+      <module name="yd-common-redis" target="1.8" />
+      <module name="yd-compile" target="1.5" />
+      <module name="yd-modular-user" target="1.5" />
+      <module name="yd-service-app" target="1.8" />
+      <module name="yd-service-app-api" target="1.5" />
+      <module name="yd-service-order" target="1.8" />
+      <module name="yd-service-order-api" target="1.5" />
+      <module name="yd-service-services" target="1.8" />
+      <module name="yd-service-services-api" target="1.5" />
+      <module name="yd-service-user" target="1.8" />
+      <module name="yd-service-user-api" target="1.8" />
+      <module name="yd-web-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

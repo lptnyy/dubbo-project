@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/yd-common-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-modular-user/yd-service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-service-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-service-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-service-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yd-web-api" charset="UTF-8" />
+  </component>
+</project>

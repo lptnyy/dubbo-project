@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/yd-common/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-web-api/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-common-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-app/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-common-model/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-common-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-order/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-app-api/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-services/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-service-services-api/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-compile/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/yd-modular-user/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
